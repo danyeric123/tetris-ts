@@ -1,0 +1,73 @@
+/* Game board */
+.game {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.row {
+  display: flex;
+}
+
+.game-block {
+  margin: 0;
+  padding: 0;
+  width: 1.5em;
+  height: 1.5em;
+  border: 1px solid #f6f1f1;
+}
+
+/* Tetrimino */
+.tetrimino {
+  display: grid;
+  border: 1px solid #ccc;
+}
+
+/* Scoreboard */
+.scoreboard {
+  margin: 40px;
+  padding: 20px;
+  /* border: 4px solid #B8FFDE; */
+  background-color: #000; /* Black background */
+  border-radius: 10px; /* Rounded border corners */
+  font-family: 'Press Start 2P', cursive; /* Pixelated font */
+  font-size: 20px;
+  text-align: center;
+  color: #B8FFDE; /* Neon yellow text color */
+  text-shadow: 2px 2px 0 #000; /* Black text shadow */
+}
+
+.empty {
+  background-color: #615c5c; /* grey background */
+}
+
+
+/* Tetrimino pieces */
+.piece-i {
+  background-color: #00f0f0; /* Light blue */
+}
+
+.piece-j {
+  background-color: #0000f0; /* Dark blue */
+}
+
+.piece-l {
+  background-color: #ffa500; /* Orange */
+}
+
+.piece-o {
+  background-color: #f0f000; /* Yellow */
+}
+
+.piece-s {
+  background-color: #00f000; /* Green */
+}
+
+.piece-t {
+  background-color: #a000f0; /* Purple */
+}
+
+.piece-z {
+  background-color: #f00000; /* Red */
+}
+
