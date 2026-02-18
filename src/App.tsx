@@ -60,7 +60,7 @@ function App() {
     <div className="app">
       <h1>Tetris</h1>
       <Tetris keyboardControls={keyboardControls}>
-        {({ Gameboard, PieceQueue, points, linesCleared, state, controller }) => (
+        {({ Gameboard, points, linesCleared, state, controller }) => (
           <div className="game-container">
             <div className="game-board-wrapper">
               <Gameboard />
@@ -79,11 +79,6 @@ function App() {
               <div className="stat-block">
                 <span className="stat-label">Lines</span>
                 <span className="stat-value">{linesCleared}</span>
-              </div>
-
-              <div className="next-piece">
-                <span className="stat-label">Next</span>
-                <PieceQueue />
               </div>
 
               <div className="controls-panel">
