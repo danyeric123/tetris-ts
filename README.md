@@ -23,21 +23,21 @@ Open [http://localhost:5173](http://localhost:5173) in your browser.
 
 ## Controls
 
-| Key | Action |
-|-----|--------|
-| ← → | Move left / right |
-| ↓ | Soft drop |
-| Space | Hard drop |
-| ↑ or X | Rotate clockwise |
-| Z | Rotate counter-clockwise |
-| C or Shift | Hold piece |
-| P | Pause / resume |
+| Key        | Action                   |
+| ---------- | ------------------------ |
+| ← →        | Move left / right        |
+| ↓          | Soft drop                |
+| Space      | Hard drop                |
+| ↑ or X     | Rotate clockwise         |
+| Z          | Rotate counter-clockwise |
+| C or Shift | Hold piece               |
+| P          | Pause / resume           |
 
 ## Scripts
 
-| Command | Description |
-|---------|-------------|
-| `yarn dev` | Start dev server |
-| `yarn build` | Type-check and build for production |
-| `yarn preview` | Preview production build |
-| `yarn lint` | Run ESLint |
+| Command        | Description                         |
+| -------------- | ----------------------------------- |
+| `yarn dev`     | Start dev server                    |
+| `yarn build`   | Type-check and build for production |
+| `yarn preview` | Preview production build            |
+| `yarn lint`    | Run ESLint                          |
