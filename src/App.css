@@ -30,17 +30,16 @@
   /* border: 4px solid #B8FFDE; */
   background-color: #000; /* Black background */
   border-radius: 10px; /* Rounded border corners */
-  font-family: 'Press Start 2P', cursive; /* Pixelated font */
+  font-family: "Press Start 2P", cursive; /* Pixelated font */
   font-size: 20px;
   text-align: center;
-  color: #B8FFDE; /* Neon yellow text color */
+  color: #b8ffde; /* Neon yellow text color */
   text-shadow: 2px 2px 0 #000; /* Black text shadow */
 }
 
 .empty {
   background-color: #615c5c; /* grey background */
 }
-
 
 /* Tetrimino pieces */
 .piece-i {
@@ -70,4 +69,3 @@
 .piece-z {
   background-color: #f00000; /* Red */
 }
-
