@@ -22,6 +22,30 @@ h1 {
   align-items: flex-start;
 }
 
+/* ── Board cells (used by react-tetris Gameboard) ───── */
+
+.row {
+  display: flex;
+}
+
+.game-block {
+  width: 1.5em;
+  height: 1.5em;
+  border: 1px solid #111;
+}
+
+.empty {
+  background-color: #1a1a1a;
+}
+
+.piece-i { background-color: #00f0f0; }
+.piece-j { background-color: #0000f0; }
+.piece-l { background-color: #ffa500; }
+.piece-o { background-color: #f0f000; }
+.piece-s { background-color: #00f000; }
+.piece-t { background-color: #a000f0; }
+.piece-z { background-color: #f00000; }
+
 /* ── Board + overlay ─────────────────────────────────── */
 
 .game-board-wrapper {
