@@ -2,6 +2,8 @@
 
 A Tetris clone built with React, TypeScript, and Vite.
 
+Built in early 2024 as a way to practice TypeScript and have a creative outlet outside of work — back when writing code by hand was still the norm, before agentic programming took over.
+
 ## Tech Stack
 
 - **React 18** — UI
