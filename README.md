@@ -10,13 +10,12 @@ Built in early 2024 as a way to practice TypeScript and have a creative outlet o
 - **TypeScript** — type safety
 - **Vite** — build tool and dev server
 - **react-tetris** — Tetris game engine
-- **react-modal** — modal dialogs
 
 ## Getting Started
 
 ```bash
-yarn install
-yarn dev
+pnpm install
+pnpm dev
 ```
 
 Open [http://localhost:5173](http://localhost:5173) in your browser.
@@ -37,7 +36,8 @@ Open [http://localhost:5173](http://localhost:5173) in your browser.
 
 | Command        | Description                         |
 | -------------- | ----------------------------------- |
-| `yarn dev`     | Start dev server                    |
-| `yarn build`   | Type-check and build for production |
-| `yarn preview` | Preview production build            |
-| `yarn lint`    | Run ESLint                          |
+| `pnpm dev`     | Start dev server                    |
+| `pnpm build`   | Type-check and build for production |
+| `pnpm preview` | Preview production build            |
+| `pnpm lint`    | Run ESLint                          |
+| `pnpm format`  | Format with Prettier                |
